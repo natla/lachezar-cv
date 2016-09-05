@@ -1,0 +1,398 @@
+/* General */
+
+body {
+    font: 300 16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grid {
+    max-width: 960px;
+    margin: 15px auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 1em;
+    /*padding-right: 1em;*/
+    margin: 0 auto;
+}
+
+.table-like {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.full-col {
+    width: 100%;
+}
+
+.left-col {
+    width: 30%;
+    padding-right: 3.8em;
+}
+
+.right-col {
+    width: 56%;
+    text-align: justify;
+    border-left: 2px dashed #aaa;
+    padding-left: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #666756;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Font Awesome Icons */
+
+.fa {
+    color: #F8981C;
+}
+
+.fa-arrow-circle-right {
+    margin-left: -1.3em;
+    background-color: white;
+    width: 20%;
+    font-size: 20px;
+}
+
+.fa-envelope {
+    font-size: 17px;
+}
+
+.fa-phone-square {
+    font-size: 18px;
+}
+
+.fa-map-marker {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.fa-home {
+    font-size: 20px;
+}
+
+/* Header */
+
+header {
+    margin-top: 45px;
+    padding-right: 3em;
+}
+
+.image-class {
+    width: 50%;
+}
+
+#image {
+    float: left;
+    width: 147px;
+}
+
+.headings {
+    width: 50%;
+    color: #666756;
+    text-align: right;
+    text-transform: uppercase;
+    /*padding-top: 6em;*/
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+h4.colorful {
+    font-weight: 400;
+    color: #F8981C;
+    display: inline-block;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #BCBBBB;
+}
+
+.contacts-info {
+    font-size: 0.85em;
+    padding-left: 3em;
+}
+
+.contacts-info2 {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+/* Main */
+
+.first {
+    padding-top: 1em;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 95%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.email a {
+    color: #F8981C;
+    font-weight: 400;
+}
+
+h5 {
+    color: #666756;
+    width: 50%;
+    margin: 0.2em 0;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+h5.address, i.address {
+    width: 25%;
+}
+
+span.address {
+    width: 75%;
+}
+
+/*
+/
+/ Media Queries
+/
+*/
+
+/*
+/
+/ Typography
+/
+*/
+
+@media screen and (max-width: 864px) {
+    h1 {
+        font-size: 2.7em;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 731px) {
+    h1 {
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    h1 {
+        font-size: 2.1em;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    h1 {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    h1 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    body {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+/*
+/
+/ Positioning
+/
+*/
+
+@media screen and (min-width: 601px) {
+    .contacts-info {
+        display: flex;
+    }
+
+    .contacts-info2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left-col {
+        width: 100%;
+        padding-right: 2em;
+    }
+
+    .right-col {
+        width: 100%;
+        padding-right: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contacts-info {
+        display: none;
+    }
+
+    .contacts-info2 {
+        display: flex;
+    }
+
+    .contact-info h5, .personal-info h5 {
+        display: initial;
+    }
+
+    .fa-male, .fa-birthday-cake {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 761px) {
+    .contact-info h5, .personal-info h5, .education-info h5 {
+        display: initial;
+    }
+
+    .fa-male, .fa-birthday-cake {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    .contact-info h5, .personal-info h5, .education-info h5 {
+        display: none;
+    }
+
+    .personal-info span:nth-of-type(2), .personal-info span:nth-of-type(3), .personal-info span:last-of-type {
+        width: 100%;
+    }
+
+    .education-info span {
+        width: 100%;
+    }
+
+    .fa-male, .fa-birthday-cake {
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 626px) {
+    span.address {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    h3 {
+        font-size: 0.9em;
+    }
+}
+
+.left-aligned {
+    width: 50%;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.right-aligned {
+    width: 50%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.center-aligned {
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h2 {
+    color: #BCBBBB;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0 20px 20px 18px;
+
+}
+
+h3 {
+    color: #666756;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1em;
+    margin: 5px auto;
+    border-bottom: 1px solid #666756;
+}
