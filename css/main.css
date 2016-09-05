@@ -80,7 +80,7 @@ img {
 
 .fa-map-marker {
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .fa-home {
@@ -358,21 +358,21 @@ span.address {
 }
 
 .left-aligned {
-    width: 50%;
-    padding-top: 10px;
+    width: 50%;    
     text-align: left;
+	padding-top: 5px;
 }
 
 .right-aligned {
     width: 50%;
     text-align: right;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .center-aligned {
     width: 50%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 p {
