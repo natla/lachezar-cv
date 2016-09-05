@@ -185,6 +185,13 @@ span.address {
     width: 75%;
 }
 
+h5.full-name, i.full-name{
+	 width: 15%;
+}
+span.full-name {
+	 width: 85%;
+}
+
 /*
 /
 / Media Queries
@@ -332,7 +339,7 @@ span.address {
         display: none;
     }
 
-    .personal-info span:nth-of-type(2), .personal-info span:nth-of-type(3), .personal-info span:last-of-type {
+    .personal-info span:last-of-type {
         width: 100%;
     }
 
