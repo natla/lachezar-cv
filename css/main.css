@@ -1,7 +1,8 @@
 /* General */
 
 body {
-    font: 300 16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 400 16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #555;
 }
 
 .grid {
