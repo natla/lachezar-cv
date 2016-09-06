@@ -100,9 +100,19 @@ header {
     width: 50%;
 }
 
-#image {
-    float: left;
-    width: 147px;
+.img-backgr {
+	float: left;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #F8981C 60%, #9f5315 100%);
+}
+
+#image {    
+    width: 150px;
+	border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .headings {
@@ -122,6 +132,23 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    color: #BCBBBB;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0 20px 20px 18px;
+}
+
+h3 {
+    color: #666756;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1em;
+    margin: 5px auto;
+    border-bottom: 2px solid #BCBBBB;
+}
+
 h4 {
     font-weight: 300;
     font-size: 1.2em;
@@ -137,6 +164,8 @@ h4.colorful {
 hr {
     border: 0;
     height: 3px;
+	margin-left: 1em;
+    margin-right: 1em;
     background-color: #BCBBBB;
 }
 
@@ -219,6 +248,12 @@ span.full-name {
     }
 }
 
+@media screen and (max-width: 758px) {
+    h3 {
+        font-size: 0.9em;
+    }
+}
+
 @media screen and (max-width: 748px) {
     h1 {
         font-size: 2.3em;
@@ -229,6 +264,9 @@ span.full-name {
     h1 {
         font-size: 2.1em;
     }
+	h3 {
+		font-size: 0.8em;
+	}
 }
 
 @media screen and (max-width: 641px) {
@@ -260,10 +298,6 @@ span.full-name {
 
     h2 {
         text-align: center;
-    }
-
-    h3 {
-        font-size: 0.8em;
     }
 }
 
@@ -364,11 +398,6 @@ span.full-name {
     }
 }
 
-@media screen and (max-width: 842px) {
-    h3 {
-        font-size: 0.9em;
-    }
-}
 
 .left-aligned {
     width: 50%;    
@@ -394,25 +423,5 @@ p {
 
 /* Footer */
 
-footer {
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-
-h2 {
-    color: #BCBBBB;
-    text-transform: capitalize;
-    font-weight: normal;
-    font-size: 2em;
-    margin: 0 20px 20px 18px;
-
-}
-
-h3 {
-    color: #666756;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 1em;
-    margin: 5px auto;
-    border-bottom: 1px solid #666756;
+footer {    
 }
