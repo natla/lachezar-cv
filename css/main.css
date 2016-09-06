@@ -38,6 +38,7 @@ body {
     width: calc((100% - 30%) - 5em);
     text-align: justify;
     border-left: 2px dashed #aaa;
+    border-image: linear-gradient(to bottom, #F8981C, rgba(159, 83, 21, 0.8)) 10;
     padding-left: 1em;	
     box-sizing: border-box;
 }
@@ -88,6 +89,7 @@ img {
 .fa-home {
     font-size: 20px;
 }
+
 
 /* Header */
 
@@ -147,6 +149,7 @@ h3 {
     font-size: 1em;
     margin: 5px auto;
     border-bottom: 2px solid #BCBBBB;
+	border-image: linear-gradient(to right, #F8981C, rgba(159, 83, 21, 0.8)) 1;
 }
 
 h4 {
@@ -161,12 +164,19 @@ h4.colorful {
     width: 80%;
 }
 
+.second, h4.second {
+	color: #da7e06;
+}
+
+.third, h4.third {
+	color: #9f5315;}
+
 hr {
     border: 0;
-    height: 3px;
-	margin-left: 1em;
+    height: 30px;
+    margin-left: 1em;
     margin-right: 1em;
-    background-color: #BCBBBB;
+    background-color: rgba(243, 140, 7, 0.8);
 }
 
 .contacts-info {
